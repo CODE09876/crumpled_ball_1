@@ -36,11 +36,11 @@ function draw() {
 	wall3.display();
 
 
-drawSprites();
-	
+	drawSprites();
+}
 function keyPressed(){
 	if (keyCode === UP_ARROW){
 		Matter.body.applyForce(ball.body,ball.body.position,{x:85,y: -85});
 	}
 }
-}
+
